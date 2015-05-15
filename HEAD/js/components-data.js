@@ -229,38 +229,6 @@ DocsApp
     ]
   },
   {
-    "name": "material.components.input",
-    "type": "module",
-    "outputPath": "partials/api/material.components.input/index.html",
-    "url": "api/material.components.input",
-    "label": "material.components.input",
-    "hasDemo": false,
-    "module": ".",
-    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
-    "docs": [
-      {
-        "name": "mdInputContainer",
-        "type": "directive",
-        "outputPath": "partials/api/material.components.input/directive/mdInputContainer.html",
-        "url": "api/material.components.input/directive/mdInputContainer",
-        "label": "mdInputContainer",
-        "hasDemo": true,
-        "module": "material.components.input",
-        "githubUrl": "https://github.com/angular/material/blob/master/src/components/input/input.js"
-      },
-      {
-        "name": "mdInput",
-        "type": "directive",
-        "outputPath": "partials/api/material.components.input/directive/mdInput.html",
-        "url": "api/material.components.input/directive/mdInput",
-        "label": "mdInput",
-        "hasDemo": true,
-        "module": "material.components.input",
-        "githubUrl": "https://github.com/angular/material/blob/master/src/components/input/input.js"
-      }
-    ]
-  },
-  {
     "name": "material.components.list",
     "type": "module",
     "outputPath": "partials/api/material.components.list/index.html",
@@ -289,6 +257,38 @@ DocsApp
         "hasDemo": true,
         "module": "material.components.list",
         "githubUrl": "https://github.com/angular/material/blob/master/src/components/list/list.js"
+      }
+    ]
+  },
+  {
+    "name": "material.components.input",
+    "type": "module",
+    "outputPath": "partials/api/material.components.input/index.html",
+    "url": "api/material.components.input",
+    "label": "material.components.input",
+    "hasDemo": false,
+    "module": ".",
+    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
+    "docs": [
+      {
+        "name": "mdInputContainer",
+        "type": "directive",
+        "outputPath": "partials/api/material.components.input/directive/mdInputContainer.html",
+        "url": "api/material.components.input/directive/mdInputContainer",
+        "label": "mdInputContainer",
+        "hasDemo": true,
+        "module": "material.components.input",
+        "githubUrl": "https://github.com/angular/material/blob/master/src/components/input/input.js"
+      },
+      {
+        "name": "mdInput",
+        "type": "directive",
+        "outputPath": "partials/api/material.components.input/directive/mdInput.html",
+        "url": "api/material.components.input/directive/mdInput",
+        "label": "mdInput",
+        "hasDemo": true,
+        "module": "material.components.input",
+        "githubUrl": "https://github.com/angular/material/blob/master/src/components/input/input.js"
       }
     ]
   },

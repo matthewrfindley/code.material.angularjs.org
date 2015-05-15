@@ -922,21 +922,6 @@ angular.module('listDemo2', ['ngMaterial'])
 
 });
 
-angular.module('progressCircularDemo1', ['ngMaterial'])
-  .controller('AppCtrl', ['$scope', '$interval',
-    function($scope, $interval) {
-      $scope.mode = 'query';
-      $scope.determinateValue = 30;
-
-      $interval(function() {
-        $scope.determinateValue += 1;
-        if ($scope.determinateValue > 100) {
-          $scope.determinateValue = 30;
-        }
-      }, 100, 0, true);
-    }
-  ]);
-
 angular.module('progressLinearDemo1', ['ngMaterial'])
   .config(function($mdThemingProvider) {
   })
@@ -958,6 +943,21 @@ angular.module('progressLinearDemo1', ['ngMaterial'])
       $scope.mode = ($scope.mode == 'query' ? 'determinate' : 'query');
     }, 7200, 0, true);
   }]);
+
+angular.module('progressCircularDemo1', ['ngMaterial'])
+  .controller('AppCtrl', ['$scope', '$interval',
+    function($scope, $interval) {
+      $scope.mode = 'query';
+      $scope.determinateValue = 30;
+
+      $interval(function() {
+        $scope.determinateValue += 1;
+        if ($scope.determinateValue > 100) {
+          $scope.determinateValue = 30;
+        }
+      }, 100, 0, true);
+    }
+  ]);
 
 
 angular
