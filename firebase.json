@@ -1,0 +1,14 @@
+{
+  "firebase": "findley-material",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ],
+  "redirects": [{
+    "source": "/",
+    "destination": "/latest",
+    "type": 301
+  }]
+}
