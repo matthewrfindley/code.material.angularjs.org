@@ -1010,10 +1010,6 @@ angular
     $mdIconProvider.iconSet("avatars", 'icons/avatar-icons.svg',128);
   });
 
-angular.module('selectDemoBasic', ['ngMaterial'])
-.controller('AppCtrl', function($scope) {
-});
-
 angular.module('selectDemoOptGroups', ['ngMaterial'])
 .controller('SelectOptGroupController', function($scope) {
   $scope.toppings = [
@@ -1026,6 +1022,10 @@ angular.module('selectDemoOptGroups', ['ngMaterial'])
     { category: 'veg', name: 'Green Pepper' },
     { category: 'veg', name: 'Green Olives' },
   ];
+});
+
+angular.module('selectDemoBasic', ['ngMaterial'])
+.controller('AppCtrl', function($scope) {
 });
 
 angular.module('selectDemoOptionsAsync', ['ngMaterial'])

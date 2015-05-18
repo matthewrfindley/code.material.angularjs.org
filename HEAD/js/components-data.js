@@ -369,6 +369,28 @@ DocsApp
     ]
   },
   {
+    "name": "material.components.select",
+    "type": "module",
+    "outputPath": "partials/api/material.components.select/index.html",
+    "url": "api/material.components.select",
+    "label": "material.components.select",
+    "hasDemo": false,
+    "module": ".",
+    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
+    "docs": [
+      {
+        "name": "mdSelect",
+        "type": "directive",
+        "outputPath": "partials/api/material.components.select/directive/mdSelect.html",
+        "url": "api/material.components.select/directive/mdSelect",
+        "label": "mdSelect",
+        "hasDemo": true,
+        "module": "material.components.select",
+        "githubUrl": "https://github.com/angular/material/blob/master/src/components/select/select.js"
+      }
+    ]
+  },
+  {
     "name": "material.components.sidenav",
     "type": "module",
     "outputPath": "partials/api/material.components.sidenav/index.html",
@@ -407,28 +429,6 @@ DocsApp
         "hasDemo": true,
         "module": "material.components.sidenav",
         "githubUrl": "https://github.com/angular/material/blob/master/src/components/sidenav/sidenav.js"
-      }
-    ]
-  },
-  {
-    "name": "material.components.select",
-    "type": "module",
-    "outputPath": "partials/api/material.components.select/index.html",
-    "url": "api/material.components.select",
-    "label": "material.components.select",
-    "hasDemo": false,
-    "module": ".",
-    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
-    "docs": [
-      {
-        "name": "mdSelect",
-        "type": "directive",
-        "outputPath": "partials/api/material.components.select/directive/mdSelect.html",
-        "url": "api/material.components.select/directive/mdSelect",
-        "label": "mdSelect",
-        "hasDemo": true,
-        "module": "material.components.select",
-        "githubUrl": "https://github.com/angular/material/blob/master/src/components/select/select.js"
       }
     ]
   },
