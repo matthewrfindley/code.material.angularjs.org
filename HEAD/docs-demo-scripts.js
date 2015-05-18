@@ -959,6 +959,10 @@ angular.module('progressLinearDemo1', ['ngMaterial'])
     }, 7200, 0, true);
   }]);
 
+angular.module('selectDemoBasic', ['ngMaterial'])
+.controller('AppCtrl', function($scope) {
+});
+
 
 angular
   .module('radioDemo1', ['ngMaterial'])
@@ -1009,10 +1013,6 @@ angular
   .config(function($mdIconProvider) {
     $mdIconProvider.iconSet("avatars", 'icons/avatar-icons.svg',128);
   });
-
-angular.module('selectDemoBasic', ['ngMaterial'])
-.controller('AppCtrl', function($scope) {
-});
 
 angular.module('selectDemoOptGroups', ['ngMaterial'])
 .controller('SelectOptGroupController', function($scope) {

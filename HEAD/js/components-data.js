@@ -229,38 +229,6 @@ DocsApp
     ]
   },
   {
-    "name": "material.components.list",
-    "type": "module",
-    "outputPath": "partials/api/material.components.list/index.html",
-    "url": "api/material.components.list",
-    "label": "material.components.list",
-    "hasDemo": false,
-    "module": ".",
-    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
-    "docs": [
-      {
-        "name": "mdList",
-        "type": "directive",
-        "outputPath": "partials/api/material.components.list/directive/mdList.html",
-        "url": "api/material.components.list/directive/mdList",
-        "label": "mdList",
-        "hasDemo": true,
-        "module": "material.components.list",
-        "githubUrl": "https://github.com/angular/material/blob/master/src/components/list/list.js"
-      },
-      {
-        "name": "mdListItem",
-        "type": "directive",
-        "outputPath": "partials/api/material.components.list/directive/mdListItem.html",
-        "url": "api/material.components.list/directive/mdListItem",
-        "label": "mdListItem",
-        "hasDemo": true,
-        "module": "material.components.list",
-        "githubUrl": "https://github.com/angular/material/blob/master/src/components/list/list.js"
-      }
-    ]
-  },
-  {
     "name": "material.components.input",
     "type": "module",
     "outputPath": "partials/api/material.components.input/index.html",
@@ -289,6 +257,38 @@ DocsApp
         "hasDemo": true,
         "module": "material.components.input",
         "githubUrl": "https://github.com/angular/material/blob/master/src/components/input/input.js"
+      }
+    ]
+  },
+  {
+    "name": "material.components.list",
+    "type": "module",
+    "outputPath": "partials/api/material.components.list/index.html",
+    "url": "api/material.components.list",
+    "label": "material.components.list",
+    "hasDemo": false,
+    "module": ".",
+    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
+    "docs": [
+      {
+        "name": "mdList",
+        "type": "directive",
+        "outputPath": "partials/api/material.components.list/directive/mdList.html",
+        "url": "api/material.components.list/directive/mdList",
+        "label": "mdList",
+        "hasDemo": true,
+        "module": "material.components.list",
+        "githubUrl": "https://github.com/angular/material/blob/master/src/components/list/list.js"
+      },
+      {
+        "name": "mdListItem",
+        "type": "directive",
+        "outputPath": "partials/api/material.components.list/directive/mdListItem.html",
+        "url": "api/material.components.list/directive/mdListItem",
+        "label": "mdListItem",
+        "hasDemo": true,
+        "module": "material.components.list",
+        "githubUrl": "https://github.com/angular/material/blob/master/src/components/list/list.js"
       }
     ]
   },
