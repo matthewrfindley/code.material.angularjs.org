@@ -89,28 +89,6 @@ DocsApp
     ]
   },
   {
-    "name": "material.components.dialog",
-    "type": "module",
-    "outputPath": "partials/api/material.components.dialog/index.html",
-    "url": "api/material.components.dialog",
-    "label": "material.components.dialog",
-    "hasDemo": false,
-    "module": ".",
-    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
-    "docs": [
-      {
-        "name": "$mdDialog",
-        "type": "service",
-        "outputPath": "partials/api/material.components.dialog/service/$mdDialog.html",
-        "url": "api/material.components.dialog/service/$mdDialog",
-        "label": "$mdDialog",
-        "hasDemo": false,
-        "module": "material.components.dialog",
-        "githubUrl": "https://github.com/angular/material/blob/master/src/components/dialog/dialog.js"
-      }
-    ]
-  },
-  {
     "name": "material.components.content",
     "type": "module",
     "outputPath": "partials/api/material.components.content/index.html",
@@ -129,6 +107,28 @@ DocsApp
         "hasDemo": true,
         "module": "material.components.content",
         "githubUrl": "https://github.com/angular/material/blob/master/src/components/content/content.js"
+      }
+    ]
+  },
+  {
+    "name": "material.components.dialog",
+    "type": "module",
+    "outputPath": "partials/api/material.components.dialog/index.html",
+    "url": "api/material.components.dialog",
+    "label": "material.components.dialog",
+    "hasDemo": false,
+    "module": ".",
+    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
+    "docs": [
+      {
+        "name": "$mdDialog",
+        "type": "service",
+        "outputPath": "partials/api/material.components.dialog/service/$mdDialog.html",
+        "url": "api/material.components.dialog/service/$mdDialog",
+        "label": "$mdDialog",
+        "hasDemo": false,
+        "module": "material.components.dialog",
+        "githubUrl": "https://github.com/angular/material/blob/master/src/components/dialog/dialog.js"
       }
     ]
   },
@@ -477,28 +477,6 @@ DocsApp
     ]
   },
   {
-    "name": "material.components.switch",
-    "type": "module",
-    "outputPath": "partials/api/material.components.switch/index.html",
-    "url": "api/material.components.switch",
-    "label": "material.components.switch",
-    "hasDemo": false,
-    "module": ".",
-    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
-    "docs": [
-      {
-        "name": "mdSwitch",
-        "type": "directive",
-        "outputPath": "partials/api/material.components.switch/directive/mdSwitch.html",
-        "url": "api/material.components.switch/directive/mdSwitch",
-        "label": "mdSwitch",
-        "hasDemo": true,
-        "module": "material.components.switch",
-        "githubUrl": "https://github.com/angular/material/blob/master/src/components/switch/switch.js"
-      }
-    ]
-  },
-  {
     "name": "material.components.swipe",
     "type": "module",
     "outputPath": "partials/api/material.components.swipe/index.html",
@@ -527,6 +505,28 @@ DocsApp
         "hasDemo": true,
         "module": "material.components.swipe",
         "githubUrl": "https://github.com/angular/material/blob/master/src/components/swipe/swipe.js"
+      }
+    ]
+  },
+  {
+    "name": "material.components.switch",
+    "type": "module",
+    "outputPath": "partials/api/material.components.switch/index.html",
+    "url": "api/material.components.switch",
+    "label": "material.components.switch",
+    "hasDemo": false,
+    "module": ".",
+    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
+    "docs": [
+      {
+        "name": "mdSwitch",
+        "type": "directive",
+        "outputPath": "partials/api/material.components.switch/directive/mdSwitch.html",
+        "url": "api/material.components.switch/directive/mdSwitch",
+        "label": "mdSwitch",
+        "hasDemo": true,
+        "module": "material.components.switch",
+        "githubUrl": "https://github.com/angular/material/blob/master/src/components/switch/switch.js"
       }
     ]
   },
